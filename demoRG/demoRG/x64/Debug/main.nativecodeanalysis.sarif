@@ -1,0 +1,243 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/vs2022/demorg/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6c128027fea57f250e9640db67e36a4fa77e1ef6e01729082a45a7651b6697b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/evp.h"
+          },
+          "hashes": {
+            "sha-256": "ca0a402222e3aeb9883f076f3658808b5982547238fbbfa905a4be7f13755ed8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/macros.h"
+          },
+          "hashes": {
+            "sha-256": "a8caa288c61ae97f450118a6880f098d40014be85413bccf3f1ce18f00b45e89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/opensslconf.h"
+          },
+          "hashes": {
+            "sha-256": "8343f2eccc78f00a1cd05f7a994f341697213785370910afc1c7bf31cdf6fcb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/configuration.h"
+          },
+          "hashes": {
+            "sha-256": "a5499c628060b97a666e4394dd61b6658c0f8c97e65aad611e9895da67b5a0c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/opensslv.h"
+          },
+          "hashes": {
+            "sha-256": "dcd5b25f1c5c448db9c448285749cc812f5d96dc51d0ccc7abbe2fcebedd58d6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/types.h"
+          },
+          "hashes": {
+            "sha-256": "e31dfa68dc6631d9e03c804dc7383c45b889ad0ecaba09b2ba75036d77d9ada1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/e_os2.h"
+          },
+          "hashes": {
+            "sha-256": "72998e94b64010146d4179a5127d8debb1ce83b147ff08452fd92b6caa2ca7fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/safestack.h"
+          },
+          "hashes": {
+            "sha-256": "1089ec732df2ababf7185ecf93660a5a8e2cf6d84eee3097afa514086cde7cb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/stack.h"
+          },
+          "hashes": {
+            "sha-256": "0a836a1e7e44c35041f7c69804eacc58c51ddb71f0fa66a9d3f196ddb168529b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/core.h"
+          },
+          "hashes": {
+            "sha-256": "90229aeb9ee28ac69683762ab0fd322cccfd1455a6479d2557755f49f21dd588"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/core_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "54da0beff7ee127f8a281eeaecf3bef8b9f9b6093b0687ac5390781c853f5497"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/symhacks.h"
+          },
+          "hashes": {
+            "sha-256": "7dd3ce0dcd5364ecdb87d3f2bb518138f341bf1eb1661949ccf8ae559dd4587d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/bio.h"
+          },
+          "hashes": {
+            "sha-256": "eed0c6db915f886085c6441365c9b7675036b3a92cbc4845961cb20aced9e8a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/crypto.h"
+          },
+          "hashes": {
+            "sha-256": "1b9d8bbf243792d89a3067ef1f814d293f23014b0c5d0d8d2a698eb546863f43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/cryptoerr.h"
+          },
+          "hashes": {
+            "sha-256": "0a4c9f890a8eaabafa04eb7248c7b7918bb0ed0c466adce181f211ab956d9fc8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/cryptoerr_legacy.h"
+          },
+          "hashes": {
+            "sha-256": "b9fc23b3e506ec253dbd6438ce0f7fa7a1cf3743dbcd69fcd405bb0a897fe695"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/bioerr.h"
+          },
+          "hashes": {
+            "sha-256": "1dde9fb3456b0c5f602da193ba635716194467644597ba883c352e4b68fb60ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/evperr.h"
+          },
+          "hashes": {
+            "sha-256": "896d1d837f312c0678ef2afe2d15e65618ff7a0e29eb70e919b2ccad8186bfe4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/params.h"
+          },
+          "hashes": {
+            "sha-256": "96cadc5fa90f4f3deb06452872c739a0329ae2cbec2fa39113e2b2e467e7e51a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/bn.h"
+          },
+          "hashes": {
+            "sha-256": "c0678a57c6a6ecee9f945398be82ff19022dcb6ed9d861e1c61c860c0c4818d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/bnerr.h"
+          },
+          "hashes": {
+            "sha-256": "89be098be688d842687e593e954e5a0f899b43f3880cb417b9649b0d5ff13d71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/objects.h"
+          },
+          "hashes": {
+            "sha-256": "d8bcdea31baefb1d3d8e103daa5296a45b9606a84a1e803c1a8d5032b8ea6dd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/obj_mac.h"
+          },
+          "hashes": {
+            "sha-256": "1a3bcaed2003a1eea36a1d78cc89cfdc7193ee0be2d19f6240959db5c1704325"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/asn1.h"
+          },
+          "hashes": {
+            "sha-256": "14ed6e1e9b40b3b3c1c8d0284d41e56f23e33dcd9f234440a33d7a75d45c0c66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/asn1err.h"
+          },
+          "hashes": {
+            "sha-256": "ec87758ad6ae3556229a5199df292ef2ad58a8428afe31eb242708127c4487ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/openssl-win64/include/openssl/objectserr.h"
+          },
+          "hashes": {
+            "sha-256": "e070dd6080310e2501aa3bd55498edb208c29b5c9a8f41a997181e641a85c9fd"
+          }
+        }
+      ]
+    }
+  ]
+}
